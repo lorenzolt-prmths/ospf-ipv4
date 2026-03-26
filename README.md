@@ -28,16 +28,16 @@ network 10.0.0.0 0.255.255.255 area 0
 Para verificar el funcionamiento de OSPF se han utilizado los siguientes comandos:
 
 - show ip ospf neighbor
-  <img width="2402" height="1078" alt="image" src="https://github.com/user-attachments/assets/38a3688b-af2c-4f88-953b-4ea1cfcadcae" />
+ ![OSPF](img/show-ospf-neighbor.png)
 
 - show ip route
-  <img width="1470" height="788" alt="image" src="https://github.com/user-attachments/assets/8e20bf9e-27e1-4aaa-a844-3e3c7ee82928" />
+![Routing](img/show-ip-route.png)
 
 - ping entre redes
 ![Ping](img/ping.png)
 
 - traceroute
-  <img width="1152" height="372" alt="image" src="https://github.com/user-attachments/assets/1c2f7b2f-00b7-45e0-8465-9cc1f57fdc7e" />
+![Traceroute](img/tracer.png)
 
 
 Se ha comprobado que todas las redes pueden comunicarse entre sí correctamente.
