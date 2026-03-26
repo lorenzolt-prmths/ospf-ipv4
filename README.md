@@ -11,6 +11,8 @@ La red está compuesta por:
 - 4 redes LAN (192.168.x.0)
 - Enlaces serial entre routers
 - Enrutamiento dinámico OSPF área 0
+  <img width="1682" height="954" alt="image" src="https://github.com/user-attachments/assets/509c77b0-faa5-453d-b5fa-7a06e3249926" />
+
 
 El objetivo es que todos los equipos de las distintas redes puedan comunicarse entre sí mediante rutas dinámicas.
 
@@ -34,7 +36,11 @@ Para verificar el funcionamiento de OSPF se han utilizado los siguientes comando
   <img width="1470" height="788" alt="image" src="https://github.com/user-attachments/assets/8e20bf9e-27e1-4aaa-a844-3e3c7ee82928" />
 
 - ping entre redes
+  <img width="1146" height="742" alt="image" src="https://github.com/user-attachments/assets/e69884df-dd2c-4d2b-8fe7-b023daa75dc4" />
+
 - traceroute
+  <img width="1152" height="372" alt="image" src="https://github.com/user-attachments/assets/1c2f7b2f-00b7-45e0-8465-9cc1f57fdc7e" />
+
 
 Se ha comprobado que todas las redes pueden comunicarse entre sí correctamente.
 
