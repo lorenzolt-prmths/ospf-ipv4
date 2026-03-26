@@ -11,9 +11,7 @@ La red está compuesta por:
 - 4 redes LAN (192.168.x.0)
 - Enlaces serial entre routers
 - Enrutamiento dinámico OSPF área 0
-  <img width="1682" height="954" alt="image" src="https://github.com/user-attachments/assets/509c77b0-faa5-453d-b5fa-7a06e3249926" />
-
-
+  ![Topología](img/topologia.png)
 El objetivo es que todos los equipos de las distintas redes puedan comunicarse entre sí mediante rutas dinámicas.
 
 ## ⚙️ Configuración OSPF
