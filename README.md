@@ -1,11 +1,11 @@
-# 🌐 Enrutamiento dinámico OSPF en IPv4
+# Enrutamiento dinámico OSPF en IPv4
 
-## 📌 Descripción
+## Descripción
 En este proyecto se ha diseñado y configurado una red con varios routers utilizando el protocolo de enrutamiento dinámico OSPF en IPv4 mediante Cisco Packet Tracer.
 
 La red está formada por múltiples redes LAN conectadas a diferentes routers y enlaces WAN entre routers. Se ha configurado OSPF para que todos los routers intercambien rutas automáticamente y exista conectividad entre todas las redes.
 
-## 🗺️ Topología de red
+## Topología de red
 La red está compuesta por:
 - 4 routers
 - 4 redes LAN (192.168.x.0)
@@ -14,7 +14,7 @@ La red está compuesta por:
   ![Topología](img/topologia.png)
 El objetivo es que todos los equipos de las distintas redes puedan comunicarse entre sí mediante rutas dinámicas.
 
-## ⚙️ Configuración OSPF
+## Configuración OSPF
 Ejemplo de configuración en uno de los routers:
 router ospf 1
 router-id 1.1.1.1
@@ -24,7 +24,7 @@ network 11.0.0.0 0.255.255.255 area 0
 network 14.0.0.0 0.255.255.255 area 0
 network 10.0.0.0 0.255.255.255 area 0
 
-## 🧠 Comprobaciones realizadas
+## Comprobaciones realizadas
 Para verificar el funcionamiento de OSPF se han utilizado los siguientes comandos:
 
 - show ip ospf neighbor
@@ -42,14 +42,14 @@ Para verificar el funcionamiento de OSPF se han utilizado los siguientes comando
 
 Se ha comprobado que todas las redes pueden comunicarse entre sí correctamente.
 
-## 🛠️ Tecnologías utilizadas
+## Tecnologías utilizadas
 - Cisco Packet Tracer
 - Routing
 - OSPF
 - IPv4
 - Redes LAN/WAN
 
-## 🎯 Objetivos del proyecto
+## Objetivos del proyecto
 - Configurar enrutamiento dinámico OSPF
 - Configurar router-id
 - Establecer adyacencias entre routers
